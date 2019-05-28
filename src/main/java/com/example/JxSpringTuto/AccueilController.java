@@ -17,4 +17,8 @@ public class AccueilController {
         return "Hy mister!";
     }
 
+    @RequestMapping("/sayItoDA")
+    String sayItoDA() {
+        return "Hy mister Denis A!";
+    }
 }
