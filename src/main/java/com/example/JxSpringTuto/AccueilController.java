@@ -10,4 +10,11 @@ public class AccueilController {
     String home() {
         return "Hello World!";
     }
+
+
+    @RequestMapping("/sayI")
+    String sayI() {
+        return "Hy mister!";
+    }
+
 }
