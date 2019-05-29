@@ -12,18 +12,18 @@ public class AccueilController {
     }
 
 
-    @RequestMapping("/sayI")
+    @RequestMapping("/sayi")
     String sayI() {
         return "Hy mister!";
     }
 
-    @RequestMapping("/sayItoDA")
-    String sayItoDA() {
-        return "Hy mister Denis A!";
-    }
-
-    @RequestMapping("/sayBye")
+    @RequestMapping("/saybye")
     String sayBye() {
         return "Bye mister !";
     }
+
+//    @RequestMapping("/saygoodby")
+//    String saygoodby() {
+//        return "Bye mister !";
+//    }
 }
