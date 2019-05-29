@@ -22,6 +22,11 @@ public class AccueilController {
         return "Bye mister !";
     }
 
+    @RequestMapping("/saygoodnight")
+    String saygoodnight() {
+        return "say good night mister !";
+    }
+
 //    @RequestMapping("/saygoodby")
 //    String saygoodby() {
 //        return "Bye mister !";
