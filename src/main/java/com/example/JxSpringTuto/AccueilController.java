@@ -21,4 +21,9 @@ public class AccueilController {
     String sayItoDA() {
         return "Hy mister Denis A!";
     }
+
+    @RequestMapping("/sayBye")
+    String sayBye() {
+        return "Bye mister !";
+    }
 }
