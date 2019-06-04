@@ -27,8 +27,8 @@ public class AccueilController {
         return "say good night mister !";
     }
 
-//    @RequestMapping("/saygoodby")
-//    String saygoodby() {
-//        return "Bye mister !";
-//    }
+    @RequestMapping("/saygoodby")
+    String saygoodby() {
+        return "Bye mister !";
+    }
 }
